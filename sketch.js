@@ -1,7 +1,10 @@
+let fondo;
+
 function setup() {
-  createCanvas(400, 400);
+  fondo = loadImage('images/fondo.png');
+  createCanvas(1350, 600);
 }
 
 function draw() {
-  background(220);
+  background(fondo);
 }
